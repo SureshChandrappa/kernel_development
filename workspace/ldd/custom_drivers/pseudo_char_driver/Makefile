@@ -1,4 +1,4 @@
-obj-m := main.o
+obj-m := pcd.o
 ARCH=arm
 CROSS_COMPILE = arm-linux-gnueabihf-
 KERN_DIR = /lib/modules/5.15.0-73-generic/build/
